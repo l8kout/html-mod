@@ -4,19 +4,36 @@
     box-sizing: border-box;
 }
 
-.header {
-    width: 99%;
-    text-align: end;
-}
-
 .container {
     display: flex;
-    width: 85%;
+
 
 }
 
 .page {
-    padding: 15px;
+    padding-left: 15px;
+
+}
+
+.page-haed {
+    padding-left: 15px;
+
+}
+
+.page-body {
+    width: 100%;
+
+}
+
+.header {
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.page-one {
+    display: flex;
+    padding-top: 10px;
 }
 
 .page-list {
@@ -29,7 +46,6 @@
 
 .image-bar {
     padding: 5px;
-    margin-top: 200px;
     border: 1px solid grey;
     width: auto;
 }
