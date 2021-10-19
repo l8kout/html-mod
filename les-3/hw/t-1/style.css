@@ -1,11 +1,11 @@
 .size {
     height: 300px;
-    background-color: #afafaf;
     text-align: center;
 }
 
 .a {
     width: 100%;
+    background-color: #6ba0c4;
 }
 
 .page {
@@ -15,9 +15,11 @@
 .b {
     width: 60%;
     align-items: stretch;
+    background-color: #3cafaf;
 }
 
 .c {
     width: 40%;
     align-items: stretch;
+    background-color: #afafaf;
 }
