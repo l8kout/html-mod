@@ -1,0 +1,61 @@
+.sz {
+    width: 300px;
+}
+
+.hei {
+    height: 100px;
+}
+
+#header {
+    height: 50px;
+    background-color: #eece8c;
+}
+
+.menu {
+    height: 300px;
+    background-color: #c4a5f5;
+    display: flex;
+
+}
+
+.a {
+    width: 100px;
+    background-color: #ce8087;
+}
+
+.b {
+    width: 100px;
+    height: 200px;
+    background-color: #5156e0;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: #ff6969;
+}
+
+.two {
+    width: 200px;
+    background-color: #e0aaf1;
+}
+
+.foot {
+    background-color: #7578cb;
+    display: flex;
+}
+
+.leftFoot {
+    flex-grow: 2;
+    background-color: #6ba0c4;
+}
+
+.rightFoot {
+    flex-grow: 1;
+    background-color: #c26faa;
+}
+
+.footer {
+    height: 70px;
+    background-color: #836e88;
+}

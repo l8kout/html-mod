@@ -1,0 +1,23 @@
+.size {
+    height: 300px;
+    background-color: #afafaf;
+    text-align: center;
+}
+
+.a {
+    width: 100%;
+}
+
+.page {
+    display: flex;
+}
+
+.b {
+    width: 60%;
+    align-items: stretch;
+}
+
+.c {
+    width: 40%;
+    align-items: stretch;
+}

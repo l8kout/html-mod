@@ -1,0 +1,34 @@
+#head {
+    width: 200px;
+    height: 50px;
+    background-color: #c4a5f5;
+}
+
+.menu {
+    width: 200px;
+    height: 150px;
+    background-color: #dc9595;
+    display: flex;
+}
+
+.left {
+    width: 150px;
+    height: 150px;
+    background-color: #dab4e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar {
+    width: 40px;
+    height: 60px;
+    background-color: #faf0ff;
+}
+
+.right {
+    width: 50px;
+    height: 150px;
+    background-color: #9afaef;
+}

@@ -1,0 +1,40 @@
+.page {
+    width: 400px;
+    justify-content: center;
+    height: auto;
+    border: 2px solid #4b6045;
+}
+
+.s {
+    height: 150px;
+    background-color: #78c58e;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.home-l {
+    width: 160px;
+}
+
+.home-r {
+    width: 160px;
+}
+
+.kabo {
+    height: 150px;
+    background-color: #3c8d6e;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    width: 120px;
+background-color: #3cafaf;
+}

@@ -1,0 +1,39 @@
+.sizes {
+    height: 200px;
+    width: 100%;
+}
+
+#header {
+    flex-direction: column;
+    background-color: gray;
+}
+
+.menu-a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+#menu {
+    width: 28%;
+    height: 420px;
+    background-color: #e1e1e1;
+}
+
+.menu-p {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 420px;
+   justify-content: space-between;
+
+}
+
+.post {
+    background-color: #7578cb;
+}
+
+#footer {
+    background-color: aquamarine;
+}

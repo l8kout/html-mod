@@ -1,0 +1,35 @@
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #afafaf;
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+    background-color: #c5a8a8;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu-a {
+    width: 65%;
+    height: 300px;
+    background-color: #d0c2ad;
+}
+
+.menu-b {
+    width: 35%;
+    height: 300px;
+    background-color: cornsilk;
+}
+
+#footer {
+    background-color: #ff7c7c;
+    width: 100%;
+    height: 100px;
+
+}

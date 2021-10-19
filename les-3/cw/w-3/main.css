@@ -1,0 +1,43 @@
+#head {
+    width: 200px;
+    height: 50px;
+    background-color: #ffc9c9;
+}
+
+.menu {
+    width: 200px;
+    height: 100px;
+    background-color: #dc9595;
+    display: flex;
+}
+
+.left {
+    width: 150px;
+    height: 50px;
+    background-color: #ff7272;
+}
+
+.left-h {
+    width: 150px;
+    height: 50px;
+    background-color: #ff6969;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    align-items: stretch;
+}
+
+.bar {
+    width: 30%;
+    background-color: #afafaf;
+}
+
+.right {
+    width: 50px ;
+    height: 100px;
+    background-color: #c2d5ff;
+}
