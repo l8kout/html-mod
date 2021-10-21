@@ -1,0 +1,45 @@
+
+.size {
+    width: 500px;
+    height: 300px;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+#header {
+    background-color: #a2ecd0;
+    margin-bottom: 10px;
+}
+
+.pageMenu {
+    display: flex;
+
+}
+
+.pageMenu__widget {
+    flex-grow: 1;
+    height: 100px;
+    background-color: #fff2a4;
+}
+
+.pageMenu__widget:nth-child(2){
+    margin: 0 10px;
+}
+
+#footer {
+    background-color: #ffc9c9;
+    margin-top: 10px;
+}

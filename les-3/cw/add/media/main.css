@@ -1,0 +1,122 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.wid {
+    width: 80%;
+}
+
+.header {
+    width: 80%;
+    height: 50px;
+    background-color: #75c9d0;
+
+}
+
+.page-menu {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+.menu-left {
+    width: 20%;
+    height: auto;
+    background-color: #f1e5b3;
+}
+
+.menu-right {
+    width: 80%;
+    height: auto;
+    background-color: #7578cb;
+}
+
+.three {
+    width: 100%;
+    height: 200px;
+    background-color: #c26faa;
+}
+
+.four {
+    width: 100%;
+    height: 120px;
+    background-color: #ffc9c9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 130px;
+    height: 80px;
+    background-color: #e1e1e1;
+}
+
+.five {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #a2ecd0;
+
+}
+
+.five-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-grow: 2;
+    height: auto;
+    background-color: #a9d9e8;
+}
+
+.boxFl {
+    width: 40%;
+    height: 18%;
+    background-color: #dedede;
+}
+
+.five-right {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    height: auto;
+    background-color: #afa9e8;
+    align-content: center;
+
+
+}
+
+.boxFr {
+    margin-top: 7px;
+    width: 80%;
+    height: 30px;
+    background-color: #eebeef;
+}
+
+.foot {
+    width: 100%;
+    height: 100px;
+    background-color: #7578cb;
+}
+
+@media only screen and (max-width: 900px) {
+    .header,
+    .page-menu {
+        width: 50%;
+    }
+
+    .four {
+        height: 240px;
+        flex-wrap: wrap;
+        order: 2;
+    }
+
+    .five {
+        flex-direction: column;
+    }
+}

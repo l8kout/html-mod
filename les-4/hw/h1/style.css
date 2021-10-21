@@ -1,0 +1,23 @@
+.size {
+    height: 200px;
+    width: 300px;
+}
+
+.header {
+    height: 100px;
+    background-color: #efe98a;
+}
+
+.page {
+    display: flex;
+}
+
+.page__left {
+    flex-grow: 2;
+    background-color: #ff7777;
+}
+
+.page__right {
+    flex-grow: 1;
+    background-color: #c4a5f5;
+}

@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: auto;
+    width: 800px;
+    height: auto;
+    background-color: #e1e1e1;
+}
+
+.header {
+
+}
+
+.header__top {
+    height: 30px;
+    background-color: #bdd0f6;
+}
+
+.header__medium {
+    height: 60px;
+    background-color: #899bc4;
+}
+
+.header__bottom {
+    height: 300px;
+    background-color: #94bdd2;
+}
+
+.menu {
+    height: 400px;
+    background-color: #94dde3;
+}
+
+.menu p {
+    text-align: center;
+    margin-top: 50px ;
+
+}
+
+.menu__top {
+    height: 50%;
+    /*background-color: #94dde3;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__border {
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content__box {
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content__box p {
+    padding-top: 60px
+
+}
+
+.menu__bottom {
+    height: 50%;
+    background-color: #dfcdf1;
+}
+
+.menu__bottom__border {
+    width: 25%;
+    height: 80%;
+    border: 2px solid #dfcdf1;
+
+}
+
+.menu__bottom__border:hover {border-color: #899bc4}
+
+.menu__bottom__ball {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.products {
+    height: 500px;
+    background-color: #afa9e8;
+    flex-wrap: wrap;
+    padding: 15px 120px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.products__box {
+    width: 160px;
+    height: 190px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.reviews {
+    height: 400px;
+    background-color: #899bc4;
+    padding: 20px 20px;
+}
+
+.reviews__box {
+    width: 40%;
+    height: 70%;
+}
+
+.reviews__box:first-of-type {
+    background-color: #75c9d0;
+    padding: 70px 50px;
+}
+.reviews__box:nth-child(2) {
+    background-color: #efe98a;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 2.2;
+}
+
+.footer {
+    height: 50px;
+    background-color: #bdd0f6;
+}
