@@ -1,0 +1,55 @@
+@media screen and (max-width: 320px) {
+    .wrapper {
+        padding: 20px 14px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .header__main {
+        justify-content: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-left: 0;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header__title p::before, .header__title p::after {
+        display: none;
+    }
+
+    .nav__button_mobile {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+
+    .nav__button_mobile div {
+        width: 30px;
+        height: 3px;
+        background-color: #FF7400;
+        border-radius: 50px;
+    }
+
+    .menu__body-intro {
+        flex-direction:column;
+        row-gap: 14px;
+    }
+}
