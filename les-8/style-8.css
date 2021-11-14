@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-left: 0;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.nav-item {
+    margin: 0 8px;
+}
+
+.main-left {
+    margin-top: 70px;
+}
+
+.main-left h1 {
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.main-left p {
+    /*font-weight: 600;*/
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 100px;
+    position: relative;
+}
+
+.main-left p::before,
+.main-left p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 8px;
+    background-color: #EDEFF3;
+}
+
+.main-left p::before {
+    top: -50px;
+}
+
+.main-left p::after {
+    bottom: -50px;
+}
+
+.main-right img {
+    width: 100%;
+}
+
+.main-left-bottom h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+
+.main-left-bottom p {
+    margin: 23px 0;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.main-left-bottom {
+    padding: 25px;
+}
+
+.main-right-bottom img {
+    width: 100%;
+}
+
+.blue-center {
+    background-image: url("img8/Rectangle 166.png");
+    padding: 140px;
+}
+
+.blue-center > p {
+    color: #FBFDFF;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.blue-center > h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FBFDFF;
+    letter-spacing: 2.42px;
+}
+
+.main-box-four-left h2 {
+    padding-top: 91px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+}
+
+.main-box-four-left p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    padding-top: 15px;
+}
+
+.main-box-four-right {
+    position: relative;
+    bottom: 160px;
+    right: 90px;
+    z-index: -1;
+}
+
+.cut {
+    height: 550px;
+}
+
+.box {
+    width: 394px;
+    height: 136px;
+    background: #d0c2ad;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    overflow:visible;
+}
