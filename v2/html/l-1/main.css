@@ -1,0 +1,25 @@
+
+body {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+}
+
+.actor {
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+h1  {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+
