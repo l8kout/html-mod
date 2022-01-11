@@ -1,0 +1,16 @@
+body {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+img.face {
+    width: 400px;
+    border-radius: 200px;
+}
