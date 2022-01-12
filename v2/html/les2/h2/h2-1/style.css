@@ -1,0 +1,26 @@
+.main {
+    width: 800px;
+    height: 500px;
+    background-color: #b8c7c4;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #BDADF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    box-shadow: 20px 20px 10px #6ba0c4;
+}
+
+.box-grey {
+    box-shadow: 20px 20px #94dde3;
+}

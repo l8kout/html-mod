@@ -1,0 +1,33 @@
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+.text-a {
+    background-color: #899bc4;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.text-b {
+    background-color: #BDADF9;
+    display: flex;
+    padding: 20px;
+}
+
+.text-c {
+    background-color: #7578cb;
+    display: flex;
+}
+
+.box-a {
+    width: 200px;
+    height: 200px;
+    background-color: #6ba0c4;
+}
+
+.box-b {
+    background-color: #836e88;
+    border-radius: 20px;
+}
