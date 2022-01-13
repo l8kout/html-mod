@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    padding: 50px 50px;
+    justify-content: space-between;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #7578cb;
+    box-shadow: 20px 20px #ffcb8a;
+    transition: box-shadow .5s;
+
+}
+
+.box:hover {
+    box-shadow: 20px 20px 20px #C4C4C4;
+
+}
+
+p {
+    font-size: 5em;
+}
