@@ -1,0 +1,29 @@
+body {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.box {
+    float: left;
+    width: 45%;
+    margin: 10px 1.15%;
+    height: 200px;
+    background-color: #afafaf;
+}
+
+.contentA {
+    float: left;
+    width: 30%;
+    margin: 5% 5%;
+    height: 160px;
+    background-color: #dab4e7;
+}
+
+.contentB {
+    float: left;
+    width: 55%;
+    margin: 5% 0;
+    height: 160px;
+    background-color: #ffcb8a;
+}

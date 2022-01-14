@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: #dedede;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: #c2d5ff;
+}
+
+.main {
+    height: 600px;
+    width: 70%;
+    background-color: #a9d9e8;
+    float: left;
+}
+
+.Aside {
+    height: 600px;
+    width: 30%;
+    background-color: #6ba0c4;
+    float: left;
+}
+
+.footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    background-color: #836e88;
+}

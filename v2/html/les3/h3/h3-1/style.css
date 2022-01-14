@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.boxA {
+    flex-grow: 1;
+    background-color: #ffcb8a;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.boxB {
+    flex-grow: 3;
+    background-color: #a9d9e8;
+}
+
+.boxC {
+    flex-grow: 1;
+    background-color: #BDADF9;
+}

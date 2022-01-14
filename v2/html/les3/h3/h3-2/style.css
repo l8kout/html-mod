@@ -1,0 +1,36 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #899bc4;
+}
+
+.menu {
+    width: 200px;
+    height: 600px;
+    float:left ;
+    background-color: #b8c7c4;
+
+}
+
+.main {
+    width: 700px;
+    height: 600px;
+    float:left ;
+}
+
+.post {
+    width: auto;
+    height: 300px;
+    background-color: #ffcb8a;
+}
+
+.footer {
+    height: 200px;
+    clear: both;
+    background-color: #D6E9FE;
+}
+
