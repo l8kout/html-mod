@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.ball {
+    display: flex;
+    border: 2px solid #c26faa;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 30px;
+    background-color: white;
+}
+
+.main {
+    flex-direction: column;
+    border: 2px solid #c26faa;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #c26faa;
+    margin-top: 20px;
+}
+
+.flexCentr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

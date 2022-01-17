@@ -1,0 +1,35 @@
+body{
+    height: auto;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    width: 800px;
+    background-color: powderblue;
+}
+
+.main {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 24%;
+    height: 90%;
+    background-color: #c2d5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxA {
+    width: 90%;
+    height: 25%;
+    background-color: #dab4e7;
+}
