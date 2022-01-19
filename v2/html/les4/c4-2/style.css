@@ -50,7 +50,7 @@ h3 {
 
 .mainBoxSize2 {
     width: 1300px;
-    height: 500px;
+    height: auto;
     display: flex;
     align-items: center;
 }
@@ -95,13 +95,18 @@ h3 {
     width: 100%;
     height: 100px;
     background-color: #94bdd2;
+    justify-content: space-between;
 }
 
-.headerButL div {
+.MedL {
     width: 150px;
     height: 60px;
     background-color: white;
+    border-radius: 20px;
+}
 
+.headerMedR {
+    display: flex;
 }
 
 .headerBut {
@@ -110,12 +115,16 @@ h3 {
     background-color: #d0c2ad;
 }
 
+.headerButA {
+    text-align: center;
+}
+
 .mainBoxT {
     background-color: #dedede;
 }
 
 .mainBoxB {
-    background-color: cornflowerblue;
+    background-color: #bdd0f6;
 }
 
 .top {
@@ -145,11 +154,11 @@ h3 {
     width: 350px;
     height: auto;
     margin: 0 5px;
-    border: 5px solid cornflowerblue;
+    border: 5px solid #bdd0f6;
 }
 
 .buttonBox:hover {
-    border: solid #a9d9e8; ;
+    border: solid white; ;
 }
 
 .boxB {
@@ -157,4 +166,54 @@ h3 {
     height: 200px;
     border-radius: 50%;
     border: 5px solid white;
+}
+
+.mainB {
+    background-color: #a9d9e8;
+    flex-direction: column;
+
+}
+
+.mainBTop {
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.mainBBoxT {
+    background-color: #EAEDF5;
+    margin: 10px 10px;
+    height: 400px;
+    width: 350px;
+
+}
+
+.mainBBut {
+    background-color: #b8c7c4;
+    padding: 20px 0;
+}
+
+.mainBBoxB {
+    display: flex;
+    width: 550px;
+    height: 400px;
+    background-color: #ffcb8a;
+}
+
+.mainBBoxB:first-of-type {
+    background-color: #B2D6FF;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color:#899bc4;
+    align-items: center;
+}
+
+.footerBox {
+    width: 50px;
+    height: 50px;
+    background-color: #fabcc2;
+    border-radius: 10px;
+    margin: 0 20px;
 }
