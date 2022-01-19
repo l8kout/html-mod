@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fCenter {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 30px 0;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+.wh100 {
+    width: 1200px;
+    height: 400px;
+}
+
+.bSize {
+    width: 200px;
+    height: 200px;
+}
+
+.boxS {
+    width: 300px;
+    height: 300px;
+}
+
+.r20 {
+    border-radius: 50px;
+}
+
+.border {
+    border: 2px solid white;
+}
+
+.mainBoxSize {
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBoxSize2 {
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.pad {
+    padding: 0  90px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTop {
+    width: 100%;
+    height: 100px;
+    background-color: #B2D6FF;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.hbox {
+    width: 50px;
+    height: 10px;
+    background-color: #c26faa;
+    margin: 0 20px;
+}
+
+.headerMed {
+    width: 100%;
+    height: 100px;
+    background-color: #94bdd2;
+}
+
+.headerButL div {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+
+}
+
+.headerBut {
+    width: 100%;
+    height: 300px;
+    background-color: #d0c2ad;
+}
+
+.mainBoxT {
+    background-color: #dedede;
+}
+
+.mainBoxB {
+    background-color: cornflowerblue;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e1e1;
+    align-items: center;
+}
+
+.topBox {
+    flex-direction: row;
+    height: 400px;
+}
+
+.box {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxT {
+    border: 5px solid white;
+}
+
+.buttonBox {
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    margin: 0 5px;
+    border: 5px solid cornflowerblue;
+}
+
+.buttonBox:hover {
+    border: solid #a9d9e8; ;
+}
+
+.boxB {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
