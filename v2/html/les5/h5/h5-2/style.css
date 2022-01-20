@@ -1,0 +1,99 @@
+.container {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.header-A {
+    width: 200px;
+    height: 200px;
+    background-color: #EAEDF5;
+}
+
+.header-B {
+    width: 600px;
+    height: 200px;
+    background-color: #c2d5ff;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+.main-A {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 400px;
+    background-color: #e1e1e1;
+}
+
+.store {
+    width: 100%;
+    height: 150px;
+    background-color: #D6E9FE;
+}
+
+.tools {
+    width: 100%;
+    height: 150px;
+    background-color: #C4C4C4;
+}
+
+.main-B {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+}
+
+.both {
+    width: 100%;
+    height: 300px;
+    background-color: #dab4e7;
+}
+
+.types {
+    width: 100%;
+    height: 400px;
+    background-color: #fabcc2;
+}
+
+.main-C {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+}
+
+.add {
+    width: 100%;
+    height: 300px;
+    background-color: bisque;
+}
+
+.reload {
+    width: 100%;
+    height: 400px;
+    background-color: #ffcb8a;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: lightcoral;
+}
