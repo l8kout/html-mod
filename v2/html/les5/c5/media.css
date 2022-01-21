@@ -1,0 +1,158 @@
+@media screen and (min-width: 301px) and (max-width: 750px) {
+
+    .container {
+        width: 700px;
+    }
+
+    .H-box {
+        width: 20%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .mainMain {
+        width: 100%;
+    }
+
+    .main-A {
+        height: 200px;
+    }
+
+    .main-B {
+        height: 250px;
+        flex-wrap: wrap;
+    }
+
+    .B-box {
+        width: 333px;
+        height: 115px;
+    }
+
+    .main-CC {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .main-C {
+        width: 100%;
+        overflow: auto;
+        height: 300px;
+        flex-direction: column;
+
+    }
+
+    .C-box {
+        width: 333px;
+        height: 93px;
+        margin-right: 15px;
+    }
+
+    .main-D {
+        display: flex;
+        width: 100%;
+        height: 210px;
+        flex-wrap: wrap;
+        padding: 10px 0;
+        justify-content: space-between;
+    }
+
+    .D-box {
+        width: 49%;
+        height: 30%;
+        background-color: #fabcc2;
+        margin-bottom: 0;
+    }
+
+    .D-box:last-of-type {
+        width: 49%;
+        height: 200px;
+    }
+
+    .footer {
+        height: 50px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+    @media screen and (min-width: 0px) and (max-width: 300px) {
+
+    .container {
+        width: 300px;
+    }
+
+    .H-box {
+        width: 40%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .mainMain {
+        width: 100%;
+    }
+
+    .main-A {
+        height: 150px;
+    }
+
+    .main-B {
+        height: 200px;
+        flex-wrap: wrap;
+    }
+
+    .B-box {
+        width: 135px;
+        height: 90px;
+    }
+
+    .main-CC {
+        flex-direction: column;
+        height: 564px;;
+    }
+
+    .main-C {
+        width: 100%;
+        overflow: auto;
+        justify-content: normal;
+    }
+
+    .C-box {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .main-D {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .D-box {
+        width: 100%;
+        height: 40px;
+        background-color: #fabcc2;
+    }
+
+    .D-box:last-of-type {
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer {
+        height: 50px;
+    }
+
+}
