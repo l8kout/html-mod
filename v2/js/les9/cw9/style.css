@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+}
+
+.left {
+    margin-right: 100px;
+}
+
+.moduleList {
+    border: 1px solid cornflowerblue;
+    width: 600px;
+    padding: 20px;
+}
