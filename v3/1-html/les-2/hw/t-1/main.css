@@ -1,0 +1,40 @@
+.wdth {
+    width: 600px;
+}
+
+.dflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.header{
+    height: 300px;
+    background-color: #D6E9FE;
+}
+
+.menu {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    height: 100%;
+    background-color: #cfebf3;
+}
+
+.footer {
+    height: 600px;
+    background-color: #b8cce0;
+}
