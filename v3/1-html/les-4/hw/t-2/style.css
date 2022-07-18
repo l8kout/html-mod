@@ -61,6 +61,10 @@
         height: 100px;
     }
 
+    .container, .b-box, .left-box{
+        width: 300px;
+    }
+
     .box {
         width: 100px;
     }
