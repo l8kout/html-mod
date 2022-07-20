@@ -1,9 +1,6 @@
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .gap10 {
         gap: 5px;
-    }
-    .container {
-        width: 500px;
     }
 
     .header {
