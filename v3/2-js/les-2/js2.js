@@ -2,7 +2,20 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 
 // let mas = [1, 0, 44, true, NaN, 'hello', 'mam', '10', '!!!', -99];
-// i = 0;
+//
+// console.log(mas[0]);
+// console.log(mas[1]);
+// console.log(mas[2]);
+// console.log(mas[3]);
+// console.log(mas[4]);
+// console.log(mas[5]);
+// console.log(mas[6]);
+// console.log(mas[7]);
+// console.log(mas[8]);
+// console.log(mas[9]);
+
+
+// let i = 0;
 // while (i < mas.length) {
 //     console.log(mas[i]);
 //     i++;
@@ -68,23 +81,37 @@
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-let masa = [
-    {name: 'Anton', username: 'Atom', password: 111},
-    {name: 'Dmutro', username: 'DMX', password: 222},
-    {name: 'Oleg', username: 'Leg', password: 333},
-    {name: 'Antonina', username: 'Tona', password: 444},
-    {name: 'Dima', username: 'Mina', password: 555},
-    {name: 'Olia', username: 'Alien', password: 666},
-    {name: 'Lesia', username: 'Sia', password: 777},
-    {name: 'Yura', username: 'RA', password: 888},
-    {name: 'Ostap', username: 'Tapas', password: 999},
-    {name: 'Viktor', username: 'Tut', password: 100}
-]
+// let masa = [
+//     {name: 'Anton', username: 'Atom', password: 111},
+//     {name: 'Dmutro', username: 'DMX', password: 222},
+//     {name: 'Oleg', username: 'Leg', password: 333},
+//     {name: 'Antonina', username: 'Tona', password: 444},
+//     {name: 'Dima', username: 'Mina', password: 555},
+//     {name: 'Olia', username: 'Alien', password: 666},
+//     {name: 'Lesia', username: 'Sia', password: 777},
+//     {name: 'Yura', username: 'RA', password: 888},
+//     {name: 'Ostap', username: 'Tapas', password: 999},
+//     {name: 'Viktor', username: 'Tut', password: 100}
+// ];
+//
+// console.log(masa[0].password);
+// console.log(masa[1].password);
+// console.log(masa[2].password);
+// console.log(masa[3].password);
+// console.log(masa[4].password);
+// console.log(masa[5].password);
+// console.log(masa[6].password);
+// console.log(masa[7].password);
+// console.log(masa[8].password);
+// console.log(masa[9].password);
 
-r = 0;
-while (r < masa.length) {
-    console.log(masa[r].password);
-    r++;
-}
+
+
+
+// let r = 0;
+// while (r < masa.length) {
+//     console.log(masa[r].password);
+//     r++;
+// }
 
 
