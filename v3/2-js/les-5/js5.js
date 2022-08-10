@@ -121,13 +121,13 @@
 
 // 11 - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
-function calc() {
-    let res = 0;
-    for (const argument of arguments) {
-        res = res + argument;
-    }
-    return res;
-}
-
-let mas = calc(-1, 10, 1, 10);
-console.log(mas);
+// function calc() {
+//     let res = 0;
+//     for (const argument of arguments) {
+//         res = res + argument;
+//     }
+//     return res;
+// }
+//
+// let mas = calc(-1, 10, 1, 10);
+// console.log(mas);
