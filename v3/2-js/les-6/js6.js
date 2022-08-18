@@ -121,27 +121,79 @@
 //     color:'', // 'red','black'
 // }
 
+
 let cards = [
-    {cardSuit: 'heart', value: '6', color: 'red'},
-    {cardSuit: 'clubs', value: '6', color: 'red'},
-    {cardSuit: 'clubs', value: '10', color: 'black'},
-    {cardSuit: 'diamond', value: 'ace', color: 'black'},
-    {cardSuit: 'spade', value: 'jack', color: 'red'},
-    {cardSuit: 'heart', value: 'queen', color: 'red'},
-    {cardSuit: 'clubs', value: 'king', color: 'black'},
-    {cardSuit: 'diamond', value: 'joker', color: 'black'},
-    {cardSuit: 'spade', value: 'jack', color: 'red'},
-    {cardSuit: 'spade', value: 'ace', color: 'red'}
+    {cardSuit: 'clubs', value: 'Ace', color:'black'},
+    {cardSuit: 'clubs', value: 2, color:'black'},
+    {cardSuit: 'clubs', value: 3, color:'black'},
+    {cardSuit: 'clubs', value: 4, color:'black'},
+    {cardSuit: 'clubs', value: 5, color:'black'},
+    {cardSuit: 'clubs', value: 6, color:'black'},
+    {cardSuit: 'clubs', value: 7, color:'black'},
+    {cardSuit: 'clubs', value: 8, color:'black'},
+    {cardSuit: 'clubs', value: 9, color:'black'},
+    {cardSuit: 'clubs', value: 10, color:'black'},
+    {cardSuit: 'clubs', value: 'Jack', color:'black'},
+    {cardSuit: 'clubs', value: 'Queen', color:'black'},
+    {cardSuit: 'clubs', value: 'King', color:'black'},
+
+    {cardSuit: 'diamonds', value: 'Ace', color:'red'},
+    {cardSuit: 'diamonds', value: 2, color:'red'},
+    {cardSuit: 'diamonds', value: 3, color:'red'},
+    {cardSuit: 'diamonds', value: 4, color:'red'},
+    {cardSuit: 'diamonds', value: 5, color:'red'},
+    {cardSuit: 'diamonds', value: 6, color:'red'},
+    {cardSuit: 'diamonds', value: 7, color:'red'},
+    {cardSuit: 'diamonds', value: 8, color:'red'},
+    {cardSuit: 'diamonds', value: 9, color:'red'},
+    {cardSuit: 'diamonds', value: 10, color:'red'},
+    {cardSuit: 'diamonds', value: 'Jack', color:'red'},
+    {cardSuit: 'diamonds', value: 'Queen', color:'red'},
+    {cardSuit: 'diamonds', value: 'King', color:'red'},
+
+    {cardSuit: 'hearts', value: 'Ace', color:'red'},
+    {cardSuit: 'hearts', value: 2, color:'red'},
+    {cardSuit: 'hearts', value: 3, color:'red'},
+    {cardSuit: 'hearts', value: 4, color:'red'},
+    {cardSuit: 'hearts', value: 5, color:'red'},
+    {cardSuit: 'hearts', value: 6, color:'red'},
+    {cardSuit: 'hearts', value: 7, color:'red'},
+    {cardSuit: 'hearts', value: 8, color:'red'},
+    {cardSuit: 'hearts', value: 9, color:'red'},
+    {cardSuit: 'hearts', value: 10, color:'red'},
+    {cardSuit: 'hearts', value: 'Jack', color:'red'},
+    {cardSuit: 'hearts', value: 'Queen', color:'red'},
+    {cardSuit: 'hearts', value: 'King', color:'red'},
+    {value: 'Joker', color:'red'},
+
+    {cardSuit: 'spades', value: 'Ace', color:'black'},
+    {cardSuit: 'spades', value: 2, color:'black'},
+    {cardSuit: 'spades', value: 3, color:'black'},
+    {cardSuit: 'spades', value: 4, color:'black'},
+    {cardSuit: 'spades', value: 5, color:'black'},
+    {cardSuit: 'spades', value: 6, color:'black'},
+    {cardSuit: 'spades', value: 7, color:'black'},
+    {cardSuit: 'spades', value: 8, color:'black'},
+    {cardSuit: 'spades', value: 9, color:'black'},
+    {cardSuit: 'spades', value: 10, color:'black'},
+    {cardSuit: 'spades', value: 'Jack', color:'black'},
+    {cardSuit: 'spades', value: 'Queen', color:'black'},
+    {cardSuit: 'spades', value: 'King', color:'black'},
+    {value: 'Joker', color:'black'},
+
 ];
+
 // - знайти піковий туз
-console.log(cards.filter(value => value.cardSuit === 'spade' && value.value === 'ace'));
+console.log(cards.filter(value => value.cardSuit === 'spades' && value.value === 'Ace'));
 // - всі шістки
-console.log(cards.filter(value => value.value === '6'));
+console.log(cards.filter(value => value.value === 6));
 // - всі червоні карти
 console.log(cards.filter(value => value.color === 'red'));
 // - всі буби
-console.log(cards.filter(value => value.cardSuit === 'diamond'))
+console.log(cards.filter(value => value.cardSuit === 'diamonds'))
 // - всі трефи від 9 та більше
+console.log(cards.filter(value => value.value === 'spades' && value > 8 || typeof value.value === 'string' && value.value === 'spades'));
+
 
 
 
