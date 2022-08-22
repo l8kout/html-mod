@@ -1,0 +1,64 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightcoral;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid #899bc4;
+}
+
+.box-time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.monthDuration {
+    display: flex;
+    border: 2px solid #899bc4;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.hourDuration {
+    display: flex;
+    border: 2px solid #899bc4;
+    flex-grow: 3;
+    justify-content: center;
+}
+
+.modules {
+    border: 2px solid #899bc4;
+    width: 100%;
+}
+
+.modEl {
+    border: 2px solid #899bc4;
+    width: 700px;
+    margin: 5px;
+    padding-left: 10px;
+}
