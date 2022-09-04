@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #D6E9FE;
+    width: 90%;
+    flex-wrap: wrap;
+    height: 410px;
+    text-align: center;
+
+}
+
+.postOf {
+    width: 90%;
+}
+
+.mainBtnDiv {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postDiv {
+    width: 18%;
+    height: 100px;
+    background-color: #ffc8a9;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+.postDetailsBtn {
+    /*width: 50px;*/
+    /*height: 50px;*/
+}
